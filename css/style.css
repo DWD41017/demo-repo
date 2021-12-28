@@ -1,0 +1,31 @@
+/*
+*{
+    margin:0;
+    padding:0;
+}
+*/
+body {
+  background-color: rgb(80, 229, 255);
+  color: rgb(1, 15, 3);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16;
+  font-weight: normal;
+  line-height: 1.6em;
+  margin: 10;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.box-1 {
+  background-color: rgb(12, 77, 218);
+  border: 5px rgb(2, 18, 26) solid;
+  letter-spacing: 0em;
+  border-radius: 15px;
+}
+h1 {
+  color: #020f02;
+}
+.my-list li:nth-child(even) {
+  background-color: aquamarine;
+}
